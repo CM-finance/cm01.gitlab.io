@@ -111,7 +111,7 @@ body img{
 } */
 
 .top_btn{
-    background-color: #45c5c6;
+    background-color: #61bbeb;
     border: 3px solid white;
     width: 50px;
     height: 50px;
@@ -127,7 +127,7 @@ body img{
     transition: .5s;
 }
 .top_btn:hover{
-    color: #45c5c6;
+    color: #61bbeb;
     background-color: white;
     transform: scale(1.2);
 }
@@ -156,20 +156,20 @@ body img{
     border-radius: 0 0 200px 0;
     background: linear-gradient(
     180deg
-    , #45c5c6, #148195);
+    , #61bbeb, #1c97d9);
 }
 .navBar.active .mainNavBg_t{
 opacity: 1;
 transform: translateY(0);
 }
 .navBar.active .topOption li[data-select="true"]{
-    color: #45c5c6;
+    color: #61bbeb;
 }
 .navBar.active .topOption li{
     color: #5e5e5e;
 }
 .navBar.active .topOption li[data-select="true"] .bottomLine{
-    background-color: #45c5c6;
+    background-color: #61bbeb;
 }
 .option-dadi{
     margin-left: 5px;
@@ -239,10 +239,10 @@ transform: translateY(0);
 }
 .navBar.active .topOption li:hover{
     background-color: #c2c2c200;
-    color: #45c5c6;
+    color: #61bbeb;
 }
 .navBar.active .topOption li:hover .bottomLine{
-    background-color: #45c5c6;
+    background-color: #61bbeb;
 }
 .navBar .topOption li:hover .bottomLine{
     width: 100%;
@@ -356,7 +356,7 @@ transform: translateY(0);
 }
 .login-btn{
     color: gray;
-    background-color: #fefea1;
+    background-color: #ffffff;
     padding: 8px 15px;
     border-radius: 50px;
     position: relative;
@@ -368,7 +368,7 @@ transform: translateY(0);
     transform: scale(1.2);
 }
 .navBar.active .login-btn{
-    background: #44c5c6;
+    background: #60bbeb;
     color: white;
 }
 .topView_h5{
@@ -379,7 +379,7 @@ transform: translateY(0);
     width: 100%;
     height: 70vh;
     max-height: 783px;
-    background: #005d68;
+    background: #2a7ca6;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
     transition: .5s;
@@ -434,11 +434,11 @@ transform: translateY(0);
 }
 .content section:nth-child(even){
     padding: 120px 0;
-    background: linear-gradient( 180deg , #148195bd,#45c5c680);
+    background: linear-gradient( 180deg , #a4a4a4bd,#d2d2d280);
     clip-path: polygon(0px 0px, 100% 12%, 100% 88%, 0px 100%);
 }
 .content section:nth-child(even) .main-title em{
-    color: #fefea1;
+    color: #838383;
 }
 .content section:nth-child(even) .main-title__bar{
     background-color: white;
@@ -613,7 +613,7 @@ transform: translateY(0);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #005d68;
+    background: #2a7ca6;
     color: white;
     padding: 30px;
 }
@@ -652,7 +652,7 @@ transform: translateY(0);
 }
 .footer-icons{
     font-size: 30px;
-    color: #45c5c6;
+    color: #61bbeb;
 }
 .footer-icons a{
     margin-right: 20px;
@@ -753,7 +753,7 @@ transform: translateY(0);
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background-color: #45c5c7;
+    background-color: #61bbeb;
 }
 .main-title__stick {
     width: 15px;
@@ -770,7 +770,7 @@ transform: translateY(0);
 }
 .main-title em {
     margin: 0 25px;
-    color: #44c5c7;
+    color: #61bbeb;
 }
 .show-box{
     color: white;
@@ -921,7 +921,7 @@ video[poster]{
     font-weight: bold;
     background: linear-gradient(
         180deg
-        , #45c5c6, #148195);
+        , #61bbeb, #1c97d9);
     padding: 10px 30px;
     border-radius: 0 50px 50px 0;
 
@@ -935,7 +935,7 @@ video[poster]{
 }
 .slider-lessons-son .lesson-price em{
     font-size: 25px;
-    color: #45c5c6;
+    color: #61bbeb;
     margin: 0 5px;
 }
 .slider-lessons-son .lesson-detail{
@@ -967,14 +967,14 @@ video[poster]{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #45c5c6;
-    border: 1px solid #45c5c6;
+    color: #61bbeb;
+    border: 1px solid #61bbeb;
     border-radius: 50px;
     padding: 5px 0;
     transition: .5s;
 }
 .slider-lessons-son .lesson-btn a:hover{
-    background-color: #45c5c6;
+    background-color: #61bbeb;
     color: white;
 }
 .slider-lessons-son .lesson-btn a h1{
@@ -997,7 +997,7 @@ video[poster]{
     width: 109%;
     height: 98px;
     border-radius: 50%;
-    background: #005d68;
+    background: #2a7ca6;
     top: -38px;
     left: 50%;
     transform: translateX(-50%);
@@ -1021,7 +1021,7 @@ video[poster]{
 .slider-students-son{
     background: linear-gradient(
         180deg
-        , #148195,#45c5c6);
+        , #1c97d9,#61bbeb);
     padding: 110px 20px 30px;
     box-sizing: border-box;
     color: white;
@@ -1042,8 +1042,8 @@ video[poster]{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #45c5c6;
-    border: 2px solid #45c5c6;
+    color: #61bbeb;
+    border: 2px solid #61bbeb;
     border-radius: 50px;
     font-size: 20px;
     transition: 0.5s;
@@ -1059,7 +1059,7 @@ video[poster]{
 }
 .listen-btn:hover figure{
     background: white;
-    color: #45c5c6;
+    color: #61bbeb;
 }
 .listen-btn:hover .listen-line{
     background: white;
@@ -1067,7 +1067,7 @@ video[poster]{
 .listen-btn figure{
     width: 40px;
     height: 40px;
-    background-color: #45c5c6;
+    background-color: #61bbeb;
     color: white;
     display: flex;
     justify-content: center;
@@ -1088,7 +1088,7 @@ video[poster]{
     top: 0;
     width: 0%;
     height: 100%;
-    background: #45c5c6;
+    background: #61bbeb;
     border-radius: 50px;
     transition: .5s;
 }
@@ -1101,7 +1101,7 @@ video[poster]{
 .listen-line{
     flex: 1;
     height: 2px;
-    background: #45c5c6;
+    background: #61bbeb;
     transition: .5s;
 }
 .feature-zone{
@@ -1115,11 +1115,12 @@ video[poster]{
 .feature-content h1{
     font-size: 24px;
     margin-bottom: 15px;
-    color: #fefea1;
+    color: #838383;
 }
 .feature-content h2{
     font-size: 13px;
     font-weight: normal;
+    color: #979797;
 }
 .feature-zone aside{
     position: relative;
@@ -1194,7 +1195,7 @@ video[poster]{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#45c5c6, #148195);
+    background: linear-gradient(#61bbeb, #1c97d9);
     border: 4px solid white;
 }
 .register-pc{
@@ -1528,17 +1529,17 @@ video[poster]{
         transform: scale(1);
     }
     .listen-btn:hover{
-        color: #45c5c6;
+        color: #61bbeb;
     }
     .listen-btn:hover .listen-bg{
         display: none;
     }
     .listen-btn:hover figure{
-        background: #45c5c6;
+        background: #61bbeb;
         color: white;
     }
     .listen-btn:hover .listen-line{
-        background: #45c5c6;
+        background: #61bbeb;
     }
     .right-side{
         display:flex;
@@ -1764,7 +1765,7 @@ video[poster]{
     }
     .top_btn:hover{
         color: white;
-        background-color: #45c5c6;
+        background-color: #61bbeb;
         transform: scale(1);
     }
     .central{
