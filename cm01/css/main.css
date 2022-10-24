@@ -434,11 +434,11 @@ transform: translateY(0);
 }
 .content section:nth-child(even){
     padding: 120px 0;
-    background: linear-gradient( 180deg , #a4a4a4bd,#d2d2d280);
+    background: linear-gradient( 180deg , #62bbeb,#bce8ff00);
     clip-path: polygon(0px 0px, 100% 12%, 100% 88%, 0px 100%);
 }
 .content section:nth-child(even) .main-title em{
-    color: #838383;
+    color: white;
 }
 .content section:nth-child(even) .main-title__bar{
     background-color: white;
@@ -692,8 +692,8 @@ transform: translateY(0);
 
 }
 .cheap-btn{
-    color: #44c5c6;
-    background-color: #fefea1;
+    color: white;
+    background-color: #62bbeb;
     font-size: 20px;
     border-radius: 50px;
     border: 2px solid white;
@@ -875,7 +875,7 @@ transform: translateY(0);
     width: 43vw;
     height: 24vw;
     margin-left: 45px;
-    border: 4px solid #44c5c7;
+    border: 4px solid #60bbeb;
     border-radius: 20px;
 }
 video[poster]{
@@ -916,7 +916,7 @@ video[poster]{
     top: 180px;
     left: 0;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 2px;
     font-weight: bold;
     background: linear-gradient(
@@ -957,6 +957,7 @@ video[poster]{
 .slider-lessons-son .lesson-detail li h1{
     font-weight: normal;
     margin-left: 10px;
+    font-size: 14px;
 }
 .slider-lessons-son .lesson-btn{
     display: flex;
@@ -1115,7 +1116,7 @@ video[poster]{
 .feature-content h1{
     font-size: 24px;
     margin-bottom: 15px;
-    color: #838383;
+    color: #34a4de;
 }
 .feature-content h2{
     font-size: 13px;
@@ -1125,6 +1126,7 @@ video[poster]{
 .feature-zone aside{
     position: relative;
     z-index: 5;
+    flex: 1;
 }
 .feature-zone aside:first-child .feature-content{
     margin-right: 20px;
@@ -1205,10 +1207,10 @@ video[poster]{
     left: -5px;
     width: 60px;
     color: white;
-    background: #008d9dc7;
+    background: #1c97d9;
     font-size: 20px;
     border-radius: 0px 20px 20px 0px;
-    border: 2px solid white;
+    border: 2px solid #1c97d9;
     overflow: hidden;
     opacity: 0.8;
     backdrop-filter: blur(10px);
@@ -1222,8 +1224,8 @@ video[poster]{
     box-sizing: border-box;
 }
 .register-pc figure{
-    background-color: #fefea1;
-    color: #008d9d;
+    background-color: #ffff;
+    color: #1c97d9;
 }
 .register-pc i{
     transform: scale(1.5);
@@ -1479,10 +1481,12 @@ video[poster]{
         font-size: 20px;
         text-align: center;
         margin-bottom: 10px;
+        color: #34a4de;
     }
     .slider-feature-son h2{
         font-size: 13px;
         font-weight: normal;
+        color: #979797;
     }
     .feature-avatar{
         font-size: 30px;

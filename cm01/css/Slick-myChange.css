@@ -2,8 +2,7 @@
     font-size: 40px;
     transition: .5s;
 }
-.slider-students .slick-prev:before,
-.slider-students .slick-next:before{
+.slick-prev:before,.slick-next:before{
     color: gray !important;
 
 }
