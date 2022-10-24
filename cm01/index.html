@@ -763,7 +763,7 @@
             <aside class="footer-about">
                 <h1>關於我們</h1>
                 <div class="link-content">
-                    <a href="#"><i class="fa-solid fa-play"></i>台中市北區台灣大道一段 667 號 5 樓</a>
+                    <a href="https://www.google.com.tw/maps/place/404%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E5%8F%B0%E7%81%A3%E5%A4%A7%E9%81%93%E4%B8%80%E6%AE%B5667%E8%99%9F/@24.1463534,120.6726749,17z/data=!3m1!4b1!4m5!3m4!1s0x34693d72524070db:0x98543da9ca0ed557!8m2!3d24.1463485!4d120.6748636?hl=zh-TW&authuser=0" target="_blank"><i class="fa-solid fa-play"></i>台中市北區台灣大道一段 667 號 5 樓</a>
                     <a href="#"><i class="fa-solid fa-play"></i>周一至週五上午九點到下午 6 點，周休二日(線上 24H 全年無休)</a>
                     <!-- <a href="#"><i class="fa-solid fa-play"></i>師資介紹</a> -->
                 </div>
@@ -778,8 +778,8 @@
             <aside class="footer-contact">
                 <h1>聯絡我們</h1>
                 <div class="link-content">
-                    <a href="#"><i class="fa-solid fa-phone"></i>(04)2229-2293</a>
-                    <a href="#"><i class="fa-solid fa-envelope"></i>leeppss67@gmail.com</a>
+                    <a href="tel:+886-4-2229229"><i class="fa-solid fa-phone"></i>(04)2229-2293</a>
+                    <a href="mailto:leeppss67@gmail.com"><i class="fa-solid fa-envelope"></i>leeppss67@gmail.com</a>
                 </div>
             </aside>
         </div>
@@ -1070,7 +1070,10 @@
         $(".option-grand,.option-child-h5 a").on("click",function(){
             $(".mobile,.option-child-h5,.optionLine").attr("data-select","false");
         });
-
+        // 點擊MOBILE選單連結後關閉mobile側選單(當選單內皆為連結時方可開啟，如果有子選單則隱蔽此功能)-----------------------------
+        $(".option-child-h5 h2").on("click",function(){
+            $(".optionLine").attr("data-select","false");
+        });
 
 
         //點擊左上方logo跟footer logo回home
