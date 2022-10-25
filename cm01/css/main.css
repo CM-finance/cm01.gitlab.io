@@ -1508,9 +1508,7 @@ video[poster]{
     .footer-content{
         flex-wrap: wrap;
     }
-    .footer-content aside{
-        margin: 0;
-    }
+
     .footer-intro{
         width: 100%;
         padding-bottom: 30px;
@@ -1799,6 +1797,9 @@ video[poster]{
     }
     .title-outer h3{
         font-size: 15px;
+    }
+    .footer-content aside{
+        margin: 0;
     }
 }
 @media screen and (max-width: 470px) {
