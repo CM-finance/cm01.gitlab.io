@@ -21,12 +21,12 @@
     bottom: -47px;
 }
 .slick-dots li.slick-active button:before{
-    color: #fefea1;
+    color: #61bbeb;
     transition: .5s;
 }
-.slider-students .slick-dots li.slick-active button:before{
+/* .slider-students .slick-dots li.slick-active button:before{
     color: #45c5c6;
-}
+} */
 .slick-slider .slick-track, .slick-slider .slick-list{
     display: flex;
 }

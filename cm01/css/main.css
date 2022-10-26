@@ -657,6 +657,13 @@ transform: translateY(0);
 .footer-icons a{
     margin-right: 20px;
     transition: .5s;
+    width: 30px;
+    display: inline-block;
+}
+.footer-icons a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .footer-icons a:hover{
     filter: brightness(1.5);
@@ -1263,6 +1270,9 @@ video[poster]{
 .navBar.active .shopping i{
     color: #44c5c6;
 }
+a.email_icon{
+    display: none;
+}
 @media screen and (max-width: 1440px) {
     .show-box__title h1{
         font-size: 45px;
@@ -1800,6 +1810,12 @@ video[poster]{
     }
     .footer-content aside{
         margin: 0;
+    }
+    a.email_icon{
+        display: inline-block;
+    }
+    a.messenger_icon{
+        display: none;
     }
 }
 @media screen and (max-width: 470px) {
